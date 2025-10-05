@@ -7,5 +7,5 @@ services:
     ports:
       - "8080:80"
 
-    volumes:
-      - ../app/public:/var/www/html/public
+    # volumes:
+    #   - ../app/public:/var/www/html/public
